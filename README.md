@@ -11,7 +11,7 @@
 
 ```bash
 npm install pandora1451/byte-weektime-picker-pro
-
+```
 ## Usage
 ### 全局引入 (Global import)
 import Vue from 'vue';
