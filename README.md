@@ -1,0 +1,50 @@
+# byte-weektime-picker-pro
+
+> 在byte-weektime-picker基础上，进行改版，将时间细化到5分钟。
+
+> Based on byte-weektime-picker, this version refines the time selection to 5-minute intervals.
+
+## Installation
+
+```bash
+npm install byte-weektime-picker-pro
+
+## Usage
+### 全局引入 (Global import)
+import Vue from 'vue';
+import ByteWeektimePickerPro from 'byte-weektime-picker-pro';
+
+Vue.use(ByteWeektimePickerPro);
+
+### 局部引入 (Local import)
+import { ByteWeektimePickerPro } from 'byte-weektime-picker-pro';
+
+export default {
+  components: {
+    ByteWeektimePickerPro
+  }
+}
+```
+### 在模板中使用 (Usage in template)
+```html
+<template>
+  <div>
+    <byte-weektime-picker-pro v-model="selectedTime" />
+  </div>
+</template>
+
+<script>
+import { ByteWeektimePickerPro } from 'byte-weektime-picker-pro';
+
+export default {
+  components: {
+    ByteWeektimePickerPro
+  },
+  data() {
+    return {
+      selectedTime: ''
+    };
+  }
+}
+</script>
+```
