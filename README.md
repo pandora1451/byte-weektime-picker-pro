@@ -14,12 +14,14 @@ npm install pandora1451/byte-weektime-picker-pro
 ```
 ## Usage
 ### 全局引入 (Global import)
+```html
 import Vue from 'vue';
 import ByteWeektimePickerPro from 'byte-weektime-picker-pro';
 
 Vue.use(ByteWeektimePickerPro);
-
+```
 ### 局部引入 (Local import)
+```html
 import { ByteWeektimePickerPro } from 'byte-weektime-picker-pro';
 
 export default {
