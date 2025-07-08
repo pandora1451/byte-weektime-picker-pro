@@ -10,9 +10,7 @@
 > 注意：此包尚未发布到 npm。请直接从 GitHub 安装。
 
 ```bash
-# Replace 'your-github-username' with the actual username
-# 将 'your-github-username' 替换为实际的 GitHub 用户名
-npm install your-github-username/byte-weektime-picker-pro
+npm install pandora1451/byte-weektime-picker-pro
 
 ## Usage
 ### 全局引入 (Global import)
