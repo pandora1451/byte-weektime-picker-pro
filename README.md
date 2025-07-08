@@ -53,3 +53,4 @@ export default {
 }
 </script>
 ```
+![image](https://github.com/user-attachments/assets/26c135e0-ae40-4411-9e61-fc13d61c64b9)
