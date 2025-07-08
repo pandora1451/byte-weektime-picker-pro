@@ -6,8 +6,13 @@
 
 ## Installation
 
+> Note: This package is not yet published to npm. Please install it directly from GitHub.
+> 注意：此包尚未发布到 npm。请直接从 GitHub 安装。
+
 ```bash
-npm install byte-weektime-picker-pro
+# Replace 'your-github-username' with the actual username
+# 将 'your-github-username' 替换为实际的 GitHub 用户名
+npm install your-github-username/byte-weektime-picker-pro
 
 ## Usage
 ### 全局引入 (Global import)
